@@ -1,0 +1,98 @@
+body {
+    background-color: #eaf4ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #0f3557;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Banner */
+.banner-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-bottom: 4px solid #8ecae6;
+}
+
+/* Navigation */
+nav {
+    background-color: #1f6fb2;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Content */
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #8ecae6;
+}
+
+/* Aside */
+aside {
+    background-color: #d9edff;
+    padding: 15px;
+    margin: 20px;
+    border-left: 6px solid #1f6fb2;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #0f3557;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* About Page Background */
+.about-bg {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+
+/* Floating Images */
+.profile {
+    width: 160px;
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 3px solid #1f6fb2;
+}
+
+.hobby {
+    width: 190px;
+    float: right;
+    margin: 20px 0 10px 20px;
+    border: 3px solid #8ecae6;
+}
+footer img {
+    background-color: white;
+    padding: 6px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
